@@ -1,0 +1,19 @@
+﻿<Window x:Class="w05p03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:w05p03"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Ellipse  Margin="0,0,100,100" x:Name="elipsa1"/>
+        <Ellipse  Margin="100,100,0,0" x:Name="elipsa2"/>
+        <Ellipse Margin="0,0,100,100"  x:Name="elipsa3">
+            <Ellipse.Fill>
+                <SolidColorBrush Color="Azure" Opacity="0.5"/>
+            </Ellipse.Fill>
+        </Ellipse>
+            
+    </Grid>
+</Window>
