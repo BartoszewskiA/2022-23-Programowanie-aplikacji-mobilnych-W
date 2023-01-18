@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">w09p02</string>
+    <string-array name="lista_elementow">
+        <item>Pozycja 01</item>
+        <item>Pozycja 02</item>
+        <item>Pozycja 03</item>
+        <item>Pozycja 04</item>
+        <item>Pozycja 05</item>
+        <item>Pozycja 06</item>
+        <item>Pozycja 07</item>
+        <item>Pozycja 08</item>
+        <item>Pozycja 09</item>
+    </string-array>
+</resources>
